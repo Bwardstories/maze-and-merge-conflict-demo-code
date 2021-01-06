@@ -1,12 +1,25 @@
+:root {
+    --cell-size: 30px;
+    --accent-color: seagreen;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 main {
     display: flex;
 }
 
-.row {
-}
+.row {}
 
 .cell {
-    height: 30px;
-    width: 30px;
-    outline: 3px dotted salmon;
+    height: var(--cell-size);
+    width: var(--cell-size);
+    border-top: 3px dotted var(--accent-color);
+    border-left: 3px dotted var(--accent-color);
+}
+
+.cell:last-child {
+    border-bottom: 3px dotted var(--accent-color);
 }
