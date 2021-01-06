@@ -1,3 +1,3 @@
-![Merge without Conflict](Merge Without Conflict.png)
+![Merge without Conflict](Merge%20Without%20Conflict.png)
 
-![Merge WITH Conflict](Merge Conflict.png)
+![Merge WITH Conflict](Merge%20Conflict.png)
