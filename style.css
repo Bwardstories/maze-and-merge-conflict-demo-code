@@ -6,7 +6,7 @@ main {
 }
 
 .cell {
-    height: 30px;
-    width: 30px;
-    outline: 3px dotted salmon;
+    height: 60px;
+    width: 60px;
+    outline: 5px dotted salmon;
 }
