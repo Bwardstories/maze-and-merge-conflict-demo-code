@@ -1,6 +1,6 @@
 :root {
     --cell-size: 45px;
-    --accent-color: seagreen;
+    --accent-color: rebeccapurple;
     --border-style: 3px dashed var(--accent-color);
 }
 
