@@ -1,11 +1,11 @@
 :root {
-    --cell-size: 45px;
-    --accent-color: rebeccapurple;
-    --border-style: 3px dashed var(--accent-color);
+  --cell-size: 45px;
+  --accent-color: indigo;
+  --border-style: 3px dashed var(--accent-color);
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 main {
@@ -19,16 +19,18 @@ main {
 }
 
 .cell {
-    height: var(--cell-size);
-    width: var(--cell-size);
-    border-top: var(--border-style);
-    border-left: var(--border-style);
+  height: var(--cell-size);
+  width: var(--cell-size);
+  border-top: var(--border-style);
+  border-left: var(--border-style);
 }
 
-.row .cell:last-child { /* select the last .cell within each .row */
-    border-right: var(--border-style);
+.row .cell:last-child {
+  /* select the last .cell within each .row */
+  border-right: var(--border-style);
 }
 
-.row:last-child .cell { /* select every .cell within the last .row */
-    border-bottom: var(--border-style);
+.row:last-child .cell {
+  /* select every .cell within the last .row */
+  border-bottom: var(--border-style);
 }
